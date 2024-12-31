@@ -1,35 +1,38 @@
 {
   "private": true,
-  "workspaces": {
-    "packages": [
-      "packages/mdx",
-      "examples/*",
-      "playground",
-      "site"
-    ]
-  },
   "scripts": {
-    "build": "lerna run --stream build",
-    "build:lib": "lerna run --stream --scope @*/mdx build",
-    "watch": "lerna run --stream --scope @*/mdx watch",
-    "build:playground": "lerna run --stream --scope playground build",
-    "test": "lerna run --stream test",
-    "dev": "lerna run --stream --scope @*/mdx dev",
-    "release": "auto shipit",
-    "postinstall": "yarn build:lib"
+    "build": "turbo build --filter=codehike...",
+    "web": "turbo dev --filter=web --filter=codehike... ",
+    "test": "turbo test",
+    "clean": "turbo clean && rm -rf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,md,mdx}\"",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish",
+    "canary": "pkg-pr-new publish --json=canary.json --comment=off --compact './packages/codehike'"
   },
   "devDependencies": {
-    "auto": "^10.18.7",
-    "lerna": "^4.0.0",
-    "prettier": "^2.5.1"
+    "@changesets/read": "0.6.1",
+    "@changesets/cli": "2.27.1",
+    "@changesets/changelog-github": "0.5.0",
+    "@octokit/action": "7.0.0",
+    "@octokit/rest": "21.0.2",
+    "@actions/exec": "1.1.1",
+    "@actions/github": "6.0.0",
+    "prettier": "^3.1.1",
+    "turbo": "^1.11.2",
+    "pkg-pr-new": "0.0.24",
+    "human-id": "4.1.1",
+    "unified": "11.0.5",
+    "remark-parse": "11.0.0",
+    "remark-stringify": "11.0.0",
+    "mdast-util-to-string": "4.0.0"
   },
+  "packageManager": "pnpm@9.7.1",
   "repository": "code-hike/codehike",
-  "author": "pomber <pombopombopombo@gmail.com>",
-  "auto": {
-    "plugins": [
-      "npm",
-      "released"
-    ],
-    "onlyPublishWithReleaseLabel": true
+  "homepage": "https://codehike.org",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/code-hike"
   }
 }
