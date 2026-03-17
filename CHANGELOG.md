@@ -1,3 +1,97 @@
+# v0.9.0 (Mon Jun 12 2023)
+
+#### 🚀 Enhancement
+
+- `@code-hike/mdx`
+  - Refactor themes [#370](https://github.com/code-hike/codehike/pull/370) ([@pomber](https://github.com/pomber))
+
+#### 🐛 Bug Fix
+
+- `@code-hike/mdx`
+  - `from` annotation with line range [#376](https://github.com/code-hike/codehike/pull/376) ([@pomber](https://github.com/pomber))
+  - Fix dimensions when code starts hidden [#373](https://github.com/code-hike/codehike/pull/373) ([@pomber](https://github.com/pomber))
+  - Merge main [#365](https://github.com/code-hike/codehike/pull/365) ([@pomber](https://github.com/pomber))
+
+#### Authors: 1
+
+- Rodrigo Pombo ([@pomber](https://github.com/pomber))
+
+---
+
+# v0.8.3 (Wed May 03 2023)
+
+#### 🐛 Bug Fix
+
+- `@code-hike/mdx`
+  - Update nextra example [#363](https://github.com/code-hike/codehike/pull/363) ([@pomber](https://github.com/pomber))
+  - Fix empty lines in expand code browser [#362](https://github.com/code-hike/codehike/pull/362) ([@pomber](https://github.com/pomber))
+  - Add trigger position config [#360](https://github.com/code-hike/codehike/pull/360) ([@pomber](https://github.com/pomber))
+  - Autolink option [#358](https://github.com/code-hike/codehike/pull/358) ([@pomber](https://github.com/pomber))
+  - Add copy button to multiline mark [#357](https://github.com/code-hike/codehike/pull/357) ([@pomber](https://github.com/pomber))
+  - Merge Main [#349](https://github.com/code-hike/codehike/pull/349) ([@pomber](https://github.com/pomber))
+
+#### Authors: 1
+
+- Rodrigo Pombo ([@pomber](https://github.com/pomber))
+
+---
+
+# v0.8.2 (Tue Apr 11 2023)
+
+#### 🐛 Bug Fix
+
+- `@code-hike/mdx`
+  - Update lighter [#347](https://github.com/code-hike/codehike/pull/347) ([@pomber](https://github.com/pomber))
+  - add outline-color to button-reset mixin [#345](https://github.com/code-hike/codehike/pull/345) ([@Mantish](https://github.com/Mantish))
+  - fix: use semantic elements [#341](https://github.com/code-hike/codehike/pull/341) ([@mfranzke](https://github.com/mfranzke) [@pomber](https://github.com/pomber))
+  - Merge main [#339](https://github.com/code-hike/codehike/pull/339) ([@pomber](https://github.com/pomber))
+
+#### Authors: 3
+
+- [@Mantish](https://github.com/Mantish)
+- Maximilian Franzke ([@mfranzke](https://github.com/mfranzke))
+- Rodrigo Pombo ([@pomber](https://github.com/pomber))
+
+---
+
+# v0.8.1 (Fri Mar 24 2023)
+
+#### 🐛 Bug Fix
+
+- `@code-hike/mdx`
+  - Use new MDX grammar [#337](https://github.com/code-hike/codehike/pull/337) ([@pomber](https://github.com/pomber))
+  - misc: fix typo in Sildeshow [#329](https://github.com/code-hike/codehike/pull/329) ([@yangshun](https://github.com/yangshun))
+  - Catch lighter error [#318](https://github.com/code-hike/codehike/pull/318) ([@pomber](https://github.com/pomber))
+  - Merge main [#315](https://github.com/code-hike/codehike/pull/315) ([@pomber](https://github.com/pomber))
+
+#### Authors: 2
+
+- Rodrigo Pombo ([@pomber](https://github.com/pomber))
+- Yangshun Tay ([@yangshun](https://github.com/yangshun))
+
+---
+
+# v0.8.0 (Mon Jan 16 2023)
+
+#### 🚀 Enhancement
+
+- `@code-hike/mdx`
+  - Use @code-hike/lighter [#308](https://github.com/code-hike/codehike/pull/308) ([@pomber](https://github.com/pomber))
+
+#### 🐛 Bug Fix
+
+- add/astro-example [#282](https://github.com/code-hike/codehike/pull/282) ([@JohnDaly](https://github.com/JohnDaly))
+- `@code-hike/mdx`
+  - Fix line number horizontal shift [#278](https://github.com/code-hike/codehike/pull/278) ([@pomber](https://github.com/pomber))
+  - Merge main [#275](https://github.com/code-hike/codehike/pull/275) ([@pomber](https://github.com/pomber))
+
+#### Authors: 2
+
+- John Daly ([@JohnDaly](https://github.com/JohnDaly))
+- Rodrigo Pombo ([@pomber](https://github.com/pomber))
+
+---
+
 # v0.7.4 (Mon Aug 22 2022)
 
 #### 🐛 Bug Fix
